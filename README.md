@@ -83,18 +83,9 @@ docker run -p 8080:8080 --env-file .env connecta
 .\mvnw.cmd test
 ```
 
-**Créditos (Trabalho em grupo)**
+**Desenvolvido por**
 - Pedro Henrique dos Santos — RM `559064`
 - Vinícius de Oliveira Coutinho — RM `556182`
 - Thiago Thomaz Sales Conceição — RM `557992`
 
-**Contexto do app (sugestão de início para documentação)**
-- ConnectA é um aplicativo originalmente pensado para conectar mentores e mentorados, promovendo aprendizado colaborativo e inclusão digital. Nesta implementação, a componente de IA ajuda a analisar currículos, gerar perfis de assistentes/mentores e sugerir skills e compatibilidades automaticamente.
 
-**Próximos passos sugeridos**
-- Documentar rotas REST específicas em `AssistenteController`, `AuthController` e `UsuarioController`.
-- Incluir exemplos de respostas da API (formatos de `JwtResponseDTO`, `UsuarioResponseDTO` e `SkillsSugeridasDTO`).
-- Adicionar um pequeno guia de como trocar o provedor de IA (local vs externo) e exemplos de variáveis `.env` necessárias.
-
----
-Se quiser, eu adapto o README para inglês, gerarei exemplos de respostas da API, ou documentarei rotas específicas com base no código fonte (posso extrair as anotações `@RequestMapping` automaticamente). Quer que eu faça isso agora?
